@@ -24,12 +24,12 @@
             }
             body {
             	background-repeat:no-repeat;
-        		background-size:60px 300px;
+        		background-size:100px 200px;
 			}
             /* 选定的链接 */
         </style>
     </head>
-    <body >
+    <body background="../image/dh.jpg">
       
             <a href="moren.html" target="xs"><img src="../logo.jpg" alt="这是图标" width="40px" height="40px"></a><h4><a href="gr.html" target="xs">简介</a></h4>
             <h4><a href="xc.html" target="xs">相册</a></h4>

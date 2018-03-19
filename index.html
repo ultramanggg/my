@@ -9,67 +9,65 @@
         <title>UG-HOME</title>
     </head>
     <style>
-        .icon {
-            float: left;
-            margin-right: 200px;
-			margin-left:3%;
-            border-radius: 5px;
-            background: #000000;
-            margin-bottom: 20px;
-            width: 40px;
-            height: 40px;
-            border: 1px #ffff00 solid;
-        } .title {
+            
+        .title {
+        	
+			background-repeat: no-repeat;
+			background-color:#00000f;
             border-radius: 5px;
             padding-top: 10px;
             text-align: center;
-            background: #000000;
             margin-left: 25%;
             margin-bottom: 20px;
             width: 50%;
             height: 30px;
-            border: 1px #ffff00 solid;
-            color: #ff0000;
+            border: 1px #00ffff solid;
+            color: #ffff00;
         } .bg {
             border-radius: 10px;
             padding: 15px;
             margin: auto;
             width: 90%;
-            height: 500px;
-            border: 4px #ffff00 solid;
+            height: 580px;
+            border: 2px #00ffff solid;
             color: #ffff00;
-        } #XS {
-		
-        	width: 80%;
-            height: 500px;
-            margin-left: 3%;
-            border: 2px ridge #00FF00;
-        } #DH {
-        
-            width: 11%;
-            height: 300px;
-            margin-left: 3%;
-            border-radius: 10px;
-            border: 2px ridge #00FF00;
-            margin-bottom:200px;
+        } #daohang {
+           
+            float: left;
+			border:1px solid #00ffff;
+            border-radius: 5px;
+            background-size:cover;
+            margin-right: 2%;
+            background-repeat: no-repeat;
+            background-image: url("image/bj.png");
+            
+            height: 100%;
+            width: 15%;
+        } #xianshi {
+            float: left;
+            border-radius: 5px;
+            background-image: url("image/dh.png");
+            background-size:cover;
+          	border:1px solid #00ffff;
+            background-repeat: no-repeat;
+            float: left;
+            height: 100%;
+            width: 80%;
         }
-		
     </style>
-    </head>
     <body background="image/page_bg.jpg">
-        <div class="icon">
-            <img src="logo.jpg" alt="这是图标" width="40px" height="40px">
-        </div>
+       
         <div class="title">
-            UG-HOME
+            	UG的汉风网站
         </div>
-        <div class="bg" >
-            <iframe id="DH" src="frame/frame1.html" >
-            	
-            </iframe>
-			
-            <iframe id="XS" name="xs" src="frame/moren.html">
-            </iframe>
+        <div class="bg">
+            <div id="daohang">
+                <iframe src="frame/frame1.html" width="100%" scrolling="no" height="100%" frameborder="0">
+                </iframe>
+            </div>
+            <div id="xianshi">
+            	<iframe name="xs" src="frame/moren.html" width="100%" scrolling="no" height="100%" frameborder="0">
+            </div>
         </div>
     </body>
 </html>
